@@ -6,6 +6,7 @@ duplicate = set([])
 
 # print("last modified: %s" % time.ctime(mtime))
 for filename in os.listdir(directory):
+    # if i < 200: 
     curr = os.path.join(directory, filename)
     date = time.ctime(os.path.getmtime(curr))
     size = os.path.getsize(curr)
@@ -15,6 +16,7 @@ for filename in os.listdir(directory):
         continue
     else:
         duplicate.add((date, size)) 
+    # i += 1 
     
     # print("time: %s" % time.ctime(os.path.getmtime(curr)))
     # print("size: %s" % os.path.getsize(curr))
