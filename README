@@ -1,2 +1,2 @@
 delete.py: 
-    I have a large backup of photos on my computer. I wanted to move my photos to the cloud without exceeding the free cloud storage limit. To save space, I wrote this script       to isolate the duplicate images. I consider an image to be a duplicate if it has the same modification time and date and size as another image. 
+    I have a large backup of photos on my computer. I wanted to move my photos to the cloud without exceeding the free cloud storage limit. To save space, I wrote this script to isolate the duplicate images. I consider an image to be a duplicate if it has the same modification time and date and size as another image. 
